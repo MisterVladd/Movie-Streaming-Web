@@ -15,6 +15,22 @@ export const films = [
 		genre: "Drama",
 		isFavorited: true,
 	},
+	{
+		id: 3,
+		title: "This 3",
+		image: 'https://images.indianexpress.com/2022/08/bullet-train-review.jpg',
+		year: "2022",
+		genre: "Action comedy",
+		isFavorited: true,
+	},
+	{
+		id: 4,
+		title: "This 4",
+		image: 'https://m.media-amazon.com/images/M/MV5BMzNhZDkzMzYtNmY2Ny00YWY5LTg4YjAtNTFlMzA2ODQxMTcxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+		year: "2022",
+		genre: "Drama",
+		isFavorited: true,
+	},
 ];
 
 export const trendings = [
