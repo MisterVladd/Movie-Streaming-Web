@@ -1,0 +1,41 @@
+.watching {
+    .img {
+        position: relative;
+
+
+        img {
+            // background: url(.jpg);
+            width: 100%;
+            border: 1px solid #969696;
+            border-radius: 20px;
+        }
+    }
+
+    .favourite {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8rem;
+        padding: 8rem;
+        background: linear-gradient(98.85deg, #FFFFFF 3.36%, rgba(255, 255, 255, 0) 238.16%);
+        backdrop-filter: blur(10px);
+        fill: var(--purple);
+        color: var(--purple);
+
+
+        svg {
+            width: 14rem;
+            height: 14rem;
+        }
+
+        &.active {
+            stroke: var(--purple);
+            fill: none;
+        }
+    }
+}

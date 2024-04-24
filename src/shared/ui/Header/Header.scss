@@ -1,0 +1,44 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 42px 65px 32px;
+
+	.link {
+		display: flex;
+		gap: 32rem;
+	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		gap: 24rem;
+
+		.avatar {
+			display: flex;
+			align-items: center;
+			gap: 8rem;
+
+			&-icon {
+				flex: 0 0 60px;
+				border-radius: 50%;
+				overflow: hidden;
+				max-width: 32rem;
+				max-height: 32rem;
+
+				img {
+					max-width: 100%;
+					display: block;
+				}
+
+				&-name {
+					font-family: var(--font-family);
+					font-weight: 500;
+					font-size: 16rem;
+					line-height: 112%;
+					color: var(--white);
+				}
+			}
+		}
+	}
+}
