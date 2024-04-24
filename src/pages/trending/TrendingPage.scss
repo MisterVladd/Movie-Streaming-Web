@@ -16,12 +16,16 @@
 			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 			gap: 24rem;
 
-			.trending {
+			.trending:not(.selected){
 				opacity: 0.3;
+			}
 
-				&.selected {
-					opacity: 1;
-				}
+			.trending {
+
+
+				// &.selected {
+				// 	opacity: 1;
+				// }
 
 				.img {
 					position: relative;

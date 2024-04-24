@@ -18,7 +18,7 @@ export const TrendingPage = () => {
       <Header />
       <div className="films">
         <div className="trending-title">Trending at this moment</div>
-        <div className="trending">
+        <div>
           <div className="trending-list">
             {films.map((content) => (
               <div
